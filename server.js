@@ -19,7 +19,7 @@ const fs = require("fs");
 
 
 // Access your API key as an environment variable (see "Set up your API key" above)
-const genAI = new GoogleGenerativeAI("AIzaSyAzsqBT9wCN03wqE3T3FtbfI11Pe1W71H0");
+const genAI = new GoogleGenerativeAI("YOUR API KEY");
 
 function fileToGenerativePart(path, mimeType) {
     return {
